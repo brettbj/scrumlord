@@ -145,6 +145,8 @@ if __name__ == '__main__':
     # Get greenelab/scrum repository. Could not find a better way
     repo, = [repo for repo in user.get_repos()
              if repo.full_name == args.repository]
+    print(repo.full_name)
+    print(args.repository)
 
     # Get open issues
     issues = list(repo.get_issues())
