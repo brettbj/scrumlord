@@ -131,7 +131,7 @@ def get_upcoming_workdays(workdays_ahead=2):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--username', default='scrum-lord')
+    parser.add_argument('--username', default='brettbj')
     parser.add_argument(
         '--token', help='GitHub personal access token for --username')
     parser.add_argument('--repository', default='brettbj/scrum')
